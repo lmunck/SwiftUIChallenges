@@ -13,6 +13,7 @@
 		5C14B9C923BFD90B009AB8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C14B9C823BFD90B009AB8E4 /* Assets.xcassets */; };
 		5C14B9CC23BFD90B009AB8E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C14B9CB23BFD90B009AB8E4 /* Preview Assets.xcassets */; };
 		5C14B9CF23BFD90B009AB8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C14B9CD23BFD90B009AB8E4 /* LaunchScreen.storyboard */; };
+		5C14B9D823BFD95A009AB8E4 /* Dynamic Picker Issue in Resources */ = {isa = PBXBuildFile; fileRef = 5C14B9D723BFD95A009AB8E4 /* Dynamic Picker Issue */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C14B9CB23BFD90B009AB8E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C14B9CE23BFD90B009AB8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C14B9D023BFD90B009AB8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C14B9D723BFD95A009AB8E4 /* Dynamic Picker Issue */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Dynamic Picker Issue"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5C14B9C123BFD908009AB8E4 /* SwiftUIChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				5C14B9D623BFD917009AB8E4 /* Challenges */,
 				5C14B9C223BFD908009AB8E4 /* AppDelegate.swift */,
 				5C14B9C423BFD908009AB8E4 /* SceneDelegate.swift */,
 				5C14B9C623BFD908009AB8E4 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				5C14B9CB23BFD90B009AB8E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C14B9D623BFD917009AB8E4 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				5C14B9D723BFD95A009AB8E4 /* Dynamic Picker Issue */,
+			);
+			path = Challenges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C14B9D823BFD95A009AB8E4 /* Dynamic Picker Issue in Resources */,
 				5C14B9CF23BFD90B009AB8E4 /* LaunchScreen.storyboard in Resources */,
 				5C14B9CC23BFD90B009AB8E4 /* Preview Assets.xcassets in Resources */,
 				5C14B9C923BFD90B009AB8E4 /* Assets.xcassets in Resources */,
